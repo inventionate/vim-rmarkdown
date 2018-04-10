@@ -2,6 +2,10 @@
 
 " Pandoc: {{{1
 " load vim-pandoc {{{2
+
+" Hotfix for Citation complete support
+let b:pandoc_loaded = 0
+
 runtime ftplugin/pandoc.vim
 
 " init vim-pandoc-after, if present {{{2
